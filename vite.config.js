@@ -6,13 +6,12 @@ import { fileURLToPath } from "node:url";
 const root = fileURLToPath(new URL(".", import.meta.url));
 
 export default defineConfig({
+  base: process.env.GITHUB_ACTIONS === "true" ? "/FinalProject/" : "/",
   plugins: [react()],
   build: {
     rollupOptions: {
       input: {
-        main: resolve(root, "index.html"),
-        admin: resolve(root, "admin.html"),
-        user: resolve(root, "user.html")
+        main: resolve(root, "index.html")
       }
     }
   }
