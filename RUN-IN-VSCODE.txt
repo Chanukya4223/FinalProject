@@ -1,0 +1,17 @@
+SECOND INVENTORY MANAGEMENT SYSTEM - REACT/VITE
+
+1. Open this folder in VS Code:
+   Second Inventory Management System React
+
+2. Open the VS Code terminal and run:
+   npm install
+
+3. Start the React application:
+   npm run dev
+
+4. Open the localhost URL shown by Vite, normally:
+   http://localhost:5173/
+
+IMPORTANT:
+Run npm commands from THIS folder because it contains package.json.
+Do not run npm commands from the parent "Second Inventory Management System" folder.
